@@ -345,6 +345,16 @@ h2 {
 .social-icons li a:hover svg {
   fill: #fff;
 }
+.social-icons-footer li a {
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
 /*Клиенты*/
 .clients {
   padding: 94px 0 94px 0;
@@ -465,6 +475,7 @@ h2 {
   color: #212121;
   text-align: left;
   padding: 0 24px;
+  margin-bottom: 0;
 }
 .portfoli-item-theme {
   font-style: normal;
