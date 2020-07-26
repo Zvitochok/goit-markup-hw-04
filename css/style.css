@@ -82,6 +82,26 @@ body {
     letter-spacing: 0.02em;
     color: #212121;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.header-adress a{
+    display: flex;
+    align-items: center;
+}
+.header-email:hover svg, 
+.header-tel:hover svg{
+    fill: #2196F3;
+}
+.header-adress svg {
+    margin-right: 10px;
+    color: #757575;
+}
+.header-email-hover {
+   fill: #2196F3;
+}
+.header-tel:hover svg {
+    fill: #2196F3;
 }
 .navigation-list-link:hover,
 .navigation-list-link:focus,
@@ -142,7 +162,7 @@ h1 {
 }
 .hero-text {
     display: flex;
-    padding: 220px 0;
+    padding: 189px 0;
     flex-grow: 1;
     justify-content: center;
     align-items: center;
