@@ -364,7 +364,7 @@ h2 {
   background: #2196f3;
 }
 .social-icons li a svg {
-  fill: #afb1b8;
+  fill: #fff;
 }
 .social-icons li a:hover svg {
   fill: #fff;
@@ -377,6 +377,9 @@ h2 {
   justify-content: center;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
+}
+.social-icons-footer {
+  margin-top: 20px;
 }
 
 /*Клиенты*/
@@ -462,6 +465,18 @@ h2 {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+}
+.subscribe-btn {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subscribe-form {
+  margin-left: 94px;
 }
 
 /*Портфоло*/
