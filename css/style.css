@@ -29,6 +29,7 @@ body {
 }
 .navigation-list {
   display: flex;
+  margin-bottom: 0;
 }
 .navigation-list-item:not(:last-child) {
   margin-right: 50px;
@@ -363,9 +364,14 @@ h2 {
 .social-icons li a:hover {
   background: #2196f3;
 }
-.social-icons li a svg {
+.social-icons-footer li a svg {
   fill: #fff;
 }
+.social-icons,
+.social-icons-team li a svg {
+  fill: #afb1b8;
+}
+
 .social-icons li a:hover svg {
   fill: #fff;
 }
